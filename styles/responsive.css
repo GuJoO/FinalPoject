@@ -306,6 +306,11 @@
         width: 153px;
         height: 43px;
     }
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
 }
 
 /* 586px */
@@ -349,6 +354,12 @@
         margin-bottom: 6px;
         height: 32px;
     }
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
+
 }
 
 /* 480px */
@@ -370,6 +381,11 @@
     .prices-titles h2 {
         font-size: 20px;
     }
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
 }
 
 /* 320px */
@@ -384,6 +400,10 @@
 
     .footer-copyright {
         height: 32px;
+    }
+
+    iframe{
+        width: 360px !important;
     }
 
     .copyright-container span {
